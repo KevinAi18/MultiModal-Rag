@@ -12,3 +12,10 @@
 - BLIP-2 and LLaVA used for generating image captions 
 - Captions stored alongside image embeddings in vector DB 
 - Hybrid search over captions and raw embeddings improves recall 
+ 
+## 2026-06-16 
+### ColPali Visual Retrieval Notes 
+- ColPali retrieves documents directly from page images 
+- No need for OCR or text extraction from PDFs 
+- PaliGemma vision model used as backbone for embeddings 
+- Late interaction scoring similar to ColBERT for text retrieval 
