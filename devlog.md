@@ -19,3 +19,10 @@
 - No need for OCR or text extraction from PDFs 
 - PaliGemma vision model used as backbone for embeddings 
 - Late interaction scoring similar to ColBERT for text retrieval 
+ 
+## 2026-06-19 
+### Vision Transformer in Multimodal RAG 
+- Vision Transformer splits image into fixed size patches 
+- Each patch is embedded as token similar to text tokens 
+- ViT embeddings used for image retrieval in multimodal pipeline 
+- Combining ViT with text encoder improves cross modal search 
