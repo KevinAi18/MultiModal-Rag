@@ -26,3 +26,10 @@
 - Each patch is embedded as token similar to text tokens 
 - ViT embeddings used for image retrieval in multimodal pipeline 
 - Combining ViT with text encoder improves cross modal search 
+ 
+## 2026-06-21 
+### Table Extraction in Multimodal RAG 
+- Tables in PDFs are hard to parse with standard text extractors 
+- Unstructured library detects and extracts tables from documents 
+- Table Transformer model used for table detection in images 
+- Extracted tables converted to markdown for LLM understanding 
