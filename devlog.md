@@ -33,3 +33,10 @@
 - Unstructured library detects and extracts tables from documents 
 - Table Transformer model used for table detection in images 
 - Extracted tables converted to markdown for LLM understanding 
+ 
+## 2026-06-23 
+### Audio Integration in Multimodal RAG 
+- Audio modality adds speech and sound understanding to RAG 
+- Whisper transcribes audio to text for retrieval pipeline 
+- Audio embeddings from wav2vec used for direct audio search 
+- Multimodal index stores text image and audio in unified store 
