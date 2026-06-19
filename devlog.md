@@ -40,3 +40,9 @@
 - Whisper transcribes audio to text for retrieval pipeline 
 - Audio embeddings from wav2vec used for direct audio search 
 - Multimodal index stores text image and audio in unified store 
+ 
+## 2026-06-26 
+### Cross Modal Attention Notes 
+- Improves grounding of generated text in visual content 
+- Used in models like Flamingo and BLIP-2 for vision language tasks 
+- Attention maps help visualize which image regions model focuses on 
