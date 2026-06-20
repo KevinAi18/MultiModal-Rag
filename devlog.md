@@ -46,3 +46,10 @@
 - Improves grounding of generated text in visual content 
 - Used in models like Flamingo and BLIP-2 for vision language tasks 
 - Attention maps help visualize which image regions model focuses on 
+ 
+## 2026-06-28 
+### Chart and Graph Understanding Notes 
+- Charts require specialized vision models beyond plain OCR 
+- DePlot converts chart images into structured table format 
+- MatCha model trained specifically for chart question answering 
+- Extracted chart data combined with text for full context retrieval 
