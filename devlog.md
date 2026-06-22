@@ -53,3 +53,10 @@
 - DePlot converts chart images into structured table format 
 - MatCha model trained specifically for chart question answering 
 - Extracted chart data combined with text for full context retrieval 
+ 
+## 2026-06-30 
+### Video Understanding in Multimodal RAG 
+- Video frames sampled at intervals for keyframe based retrieval 
+- Frame embeddings combined with audio transcript for full context 
+- Video-LLaVA model used for direct video question answering 
+- Temporal alignment matches transcript timestamps to video frames 
