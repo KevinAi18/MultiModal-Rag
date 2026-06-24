@@ -60,3 +60,10 @@
 - Frame embeddings combined with audio transcript for full context 
 - Video-LLaVA model used for direct video question answering 
 - Temporal alignment matches transcript timestamps to video frames 
+ 
+## 2026-07-03 
+### Multimodal Embedding Storage Notes 
+- Separate vector indices used for text image and audio embeddings 
+- Unified embedding space allows cross modal similarity search 
+- Weaviate and Qdrant both support multi vector storage natively 
+- Metadata filtering combined with vector search for precise results 
