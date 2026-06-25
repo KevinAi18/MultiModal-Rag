@@ -67,3 +67,10 @@
 - Unified embedding space allows cross modal similarity search 
 - Weaviate and Qdrant both support multi vector storage natively 
 - Metadata filtering combined with vector search for precise results 
+ 
+## 2026-07-05 
+### Multimodal Reranking Notes 
+- Reranking in multimodal RAG scores image and text results jointly 
+- CLIP score used as initial filter before cross encoder reranking 
+- Late fusion combines separate text and image relevance scores 
+- Helps surface most relevant mixed media result to the user 
