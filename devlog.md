@@ -74,3 +74,10 @@
 - CLIP score used as initial filter before cross encoder reranking 
 - Late fusion combines separate text and image relevance scores 
 - Helps surface most relevant mixed media result to the user 
+ 
+## 2026-07-07 
+### Document Layout Analysis Notes 
+- Layout analysis detects headers, paragraphs, tables and figures 
+- LayoutLM model understands both text content and spatial position 
+- Bounding boxes for each element help preserve document structure 
+- Improves chunking by respecting natural document boundaries 
