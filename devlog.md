@@ -81,3 +81,10 @@
 - LayoutLM model understands both text content and spatial position 
 - Bounding boxes for each element help preserve document structure 
 - Improves chunking by respecting natural document boundaries 
+ 
+## 2026-07-09 
+### Negative Sampling for Multimodal Retrieval 
+- Hard negative mining improves contrastive training for embeddings 
+- Random negatives are too easy and slow down model convergence 
+- In-batch negatives commonly used for efficient contrastive learning 
+- Better negatives lead to sharper separation in embedding space 
