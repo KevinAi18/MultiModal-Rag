@@ -72,3 +72,11 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 Created by [KevinAi18](https://github.com/KevinAi18).
+ 
+## Supported Modalities 
+- Text documents and PDFs 
+- Images including charts, diagrams and photos 
+- Audio transcripts via Whisper 
+- Video keyframes with temporal alignment 
+ 
+All modalities are indexed into a unified vector store for cross modal retrieval. 
