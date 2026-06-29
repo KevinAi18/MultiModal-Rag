@@ -80,3 +80,9 @@ Created by [KevinAi18](https://github.com/KevinAi18).
 - Video keyframes with temporal alignment 
  
 All modalities are indexed into a unified vector store for cross modal retrieval. 
+ 
+## Project Structure 
+- ingestion - handles parsing of text, image, audio and video inputs 
+- embeddings - generates and stores unified multimodal embeddings 
+- retrieval - performs cross modal search and reranking 
+- generation - produces final answer using retrieved multimodal context 
