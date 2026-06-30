@@ -86,3 +86,8 @@ All modalities are indexed into a unified vector store for cross modal retrieval
 - embeddings - generates and stores unified multimodal embeddings 
 - retrieval - performs cross modal search and reranking 
 - generation - produces final answer using retrieved multimodal context 
+ 
+## Limitations 
+- Cross modal alignment quality depends heavily on training data 
+- Video processing is computationally expensive at scale 
+- Table and chart extraction accuracy varies with image quality 
