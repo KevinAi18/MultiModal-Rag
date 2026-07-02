@@ -97,3 +97,10 @@ All modalities are indexed into a unified vector store for cross modal retrieval
 - Keep changes focused and well documented 
 - Open a pull request with screenshots or examples where relevant 
 - Bug reports and suggestions welcome via GitHub Issues 
+ 
+## Setup 
+1. Clone the repository 
+2. Install dependencies from requirements.txt 
+3. Add API keys for your chosen LLM provider to .env file 
+4. Run the ingestion script to index your documents 
+5. Start the FastAPI server and query via the REST API 
