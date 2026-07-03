@@ -104,3 +104,9 @@ All modalities are indexed into a unified vector store for cross modal retrieval
 3. Add API keys for your chosen LLM provider to .env file 
 4. Run the ingestion script to index your documents 
 5. Start the FastAPI server and query via the REST API 
+ 
+## License 
+This project is released under the MIT License. See the LICENSE file for details. 
+ 
+## Acknowledgements 
+Built using CLIP for embeddings and LangChain for retrieval orchestration. 
