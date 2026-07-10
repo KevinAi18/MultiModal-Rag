@@ -110,3 +110,7 @@ This project is released under the MIT License. See the LICENSE file for details
  
 ## Acknowledgements 
 Built using CLIP for embeddings and LangChain for retrieval orchestration. 
+ 
+## FAQ 
+Q: Can this handle very large PDF files? 
+A: Yes, though very large files increase ingestion and indexing time. 
