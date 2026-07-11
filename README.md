@@ -114,3 +114,7 @@ Built using CLIP for embeddings and LangChain for retrieval orchestration.
 ## FAQ 
 Q: Can this handle very large PDF files? 
 A: Yes, though very large files increase ingestion and indexing time. 
+ 
+## Troubleshooting 
+- If cross modal search returns poor results, check embedding model versions match 
+- If video processing is slow, reduce the frame sampling rate 
