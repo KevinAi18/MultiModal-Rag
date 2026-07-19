@@ -1,3 +1,4 @@
+![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Python](https://img.shields.io/badge/python-3.11-blue.svg) 
 # Multi-PDF RAG Assistant
 
 A local, high-performance Retrieval-Augmented Generation (RAG) assistant that allows users to upload multiple PDF documents and perform conversational Q&A. The application utilizes the open-source **LLaMA 3.2 1B Instruct** model, **LlamaIndex** for query orchestration, and **ChromaDB** as a vector database for semantic search.
