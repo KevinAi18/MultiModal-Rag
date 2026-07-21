@@ -119,3 +119,6 @@ A: Yes, though very large files increase ingestion and indexing time.
 ## Troubleshooting 
 - If cross modal search returns poor results, check embedding model versions match 
 - If video processing is slow, reduce the frame sampling rate 
+ 
+## Design Philosophy 
+Rather than treating text, image and audio as separate systems bolted together, this project aims for a genuinely unified retrieval layer across modalities. 
