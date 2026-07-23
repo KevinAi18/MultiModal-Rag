@@ -122,3 +122,6 @@ A: Yes, though very large files increase ingestion and indexing time.
  
 ## Design Philosophy 
 Rather than treating text, image and audio as separate systems bolted together, this project aims for a genuinely unified retrieval layer across modalities. 
+ 
+## Related Projects 
+Check out other projects in this portfolio for RAG, fine-tuning, and computer vision work. 
